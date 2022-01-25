@@ -1,0 +1,352 @@
+@charset "UTF-8";
+
+/* Comeco */
+
+* {
+    margin: 0;
+    font-family: 'Bubblegum Sans', cursive;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+/* Navbar */
+
+#navbar {
+    background-color: rgb(0, 38, 66);
+    color: white;
+    padding: 0 15px;
+    height: 150px;
+    text-align: center;
+}
+
+#navbar h2, #navbar ul, #navbar-list li, #navbar nav {
+    display: inline-block;
+}
+
+#navbar h2 {
+    margin: 0;
+    line-height: 60px;
+    margin-left: 55px;
+}
+
+#navbar img {
+    height: 50px;
+    position: absolute;
+    top: 10px;
+    height: 120px;
+}
+
+#navbar nav{
+    float: right;
+}
+
+#navbar ul {
+    margin-top: 22px
+}
+
+#navbar li {
+    margin: 0 10px;
+}
+
+#navbar-list li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Banner */
+
+#banner {
+    height:  100vh;
+    background-image: url('../fotos/lobo_fim.jpg');
+    background-size: cover;
+    padding-top: 2vh;
+}
+
+#banner-info {
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    color: black;
+    padding: 30px;
+}
+
+#banner-info img {
+    height: 110px;
+    border-radius: 50%;
+    background-color: rgb(0, 38, 66);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#banner-info p {
+    background-color: rgb(0, 38, 66);
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 5px;
+}
+
+#banner .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.banner-container {
+    flex: 2 2 2;
+    text-align: center;
+    padding: 25px 25px;        
+}
+
+.banner-container h2 {
+    color: rgb(0, 38, 66);
+    font-size: 20px;
+}
+
+.banner-container img {
+    height: 60px;
+    padding: 15px;
+    margin-bottom: 5px;
+}
+
+.banner-container .subtitle {
+    font-weight: bold;
+    color: rgb(0, 38, 66);
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.banner-container p {
+    line-height: 25px;
+}
+
+/* About */
+
+#about {
+    text-align: center;
+    background-color: rgb(0, 38, 66);
+    color: white;
+    padding: 50px;
+    height: 520px;
+}
+
+#about h2 {
+    margin-bottom: 30px;
+}
+
+#about p {
+    max-width: 650px;
+    margin-right: auto;
+    margin-left: auto;
+    line-height: 30px;
+}
+
+#about-tabela {
+    margin-left: auto;
+    margin-right: auto;
+}
+#about-tabela td {
+    background-color: rgba(168, 168, 168, 0.856);
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+#about-tabela td.ce {
+    color: white;
+    background-color: rgb(0, 38, 66);
+    vertical-align: top;
+    font-weight: bold;
+}
+#about-tabela td.cd {
+    color: black;
+}
+#about-tabela caption {
+    color: white;
+    font-size: 13pt;
+    font-weight: bolder;
+}
+#about-tabela caption span {
+    display: block;
+    float: right;
+    color: black;
+    font-size: 8pt;
+    margin-top: 10px;
+}
+
+/* Skills */
+
+#skills {
+    margin-top: -100px;
+    background-color: white;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#skills .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.skills-container {
+    flex: 2 2 2;
+    text-align: center;
+    padding: 60px 25px;        
+}
+
+.skills-container h3 {
+    color: rgb(0, 38, 66);
+    font-size: 20px;
+}
+
+.skills-container img {
+    height: 60px;
+    padding: 15px;
+    margin-bottom: 25px;
+}
+
+.skills-container .subtitle {
+    font-weight: bold;
+    color: rgb(0, 38, 66);
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.skills-container p {
+    line-height: 25px;
+}
+
+/* Links */
+
+#links {
+    text-align: center;
+    padding-top: 50px;
+}
+
+#links h2 {
+    color: rgb(0, 38, 66);
+    margin-bottom: 30px;
+}
+
+#links p {
+    margin-bottom: 50px;
+}
+
+#Links a {
+    font-weight: bold;
+    color: rgb(0, 38, 66);
+}
+
+#links-fotos {
+    width: 700px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+}
+
+#links-fotos li {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    background-color: rgb(0, 38, 66);
+    box-shadow: 2px 2px 4px;
+    -webkit-transition: all 0.5s ease-in;
+}
+
+#links-fotos li a div span {
+    opacity: 0;
+    color: black;
+    text-shadow: 2px, 2px, 4px white;
+    background-color: rgb(0, 38, 66);
+    font-size: 9pt;
+    line-height: 370px;
+    padding: 5px;
+}
+
+#links-fotos li:hover {
+    -webkit-transform: scale(1.5);
+}
+
+#links-fotos li:hover a div span {
+    opacity: 1;
+}
+
+#links-fotos #Foto01 {
+    background: url('../fotos/proj1.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+#links-fotos #Foto01:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+#links-fotos #Foto02 {
+    background: url('../fotos/proj2.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+#links-fotos #Foto02:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+#links-fotos #Foto03 {
+    background: url('../fotos/proj3.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+#links-fotos #Foto03:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+
+} 
+/* footer */
+
+footer {
+    padding: 50px 0;
+    background-color: rgb(0, 38, 66);
+    color: white;
+    text-align: center;
+}
+
+footer img {
+    height: 110px;
+    border-radius: 50%;
+    background-color: rgb(0, 38, 66);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+footer p {
+    margin-top: 25px;
+}
+
+footer form {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer input, footer textarea, footer button {
+    padding: 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    width: 100%;
+    display: block;
+}
+
+footer .detail {
+    font-weight: bold;
+}
